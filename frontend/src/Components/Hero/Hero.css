@@ -1,5 +1,5 @@
 .hero {
-    height: 100vh;
+    height: 125vh;
     background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
     display: flex;
 }
@@ -49,4 +49,16 @@
     color: white;
     font-size: 22px;
     font-weight: 500;
+}
+
+.hero-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-right img {
+    width: 75%; 
+    max-width: 75%; 
 }
